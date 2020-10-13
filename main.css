@@ -1,0 +1,179 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: white;
+  margin: 2.5vw auto;
+  position: relative;
+}
+
+/* Your CSS goes here */
+.table {
+  position: absolute;
+  width: 80%;
+  height: 25%;
+  bottom: 0%;
+  left: 10%;
+  background-color: #7ee8ba;
+}
+
+.jarbotrect {
+  position: absolute;
+  width: 25%;
+  height: 4%;
+  bottom: 25%;
+  left: 17%;
+  background-color: #7ee8ba;
+  z-index: 1;
+}
+
+.jarellipse {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  background: #0eb174;
+  border-radius: 32% / 46%;
+  left: 17%;
+  bottom: 28%;
+}
+
+.jartoprect {
+  position: absolute;
+  width: 25%;
+  height: 5%;
+  bottom: 52%;
+  left: 17%;
+  background-color: #7ee8ba;
+}
+
+.jarknob {
+  position: absolute;
+  width: 3%;
+  height: 5%;
+  background: #7ee8ba;
+  border-radius: 50%;
+  left: 28%;
+  bottom: 56%;
+}
+
+.candle1botrect {
+  position: absolute;
+  width: 13%;
+  height: 2%;
+  bottom: 25%;
+  left: 16%;
+  background-color: #0eb174;
+  z-index: 2;
+}
+
+.candle1shaft {
+  position: absolute;
+  width: 1%;
+  height: 17%;
+  bottom: 27%;
+  left: 22%;
+  background-color: #0eb174;
+  z-index: 1;
+}
+
+.candle1toprect {
+  position: absolute;
+  width: 3%;
+  height: 26%;
+  bottom: 44%;
+  left: 21%;
+  background-color: #7ee8ba;
+}
+
+.candle1wick {
+  position: absolute;
+  width: 1%;
+  height: 5%;
+  bottom: 69%;
+  left: 22%;
+  background-color: #0eb174;
+}
+
+.vasebottri  {
+  position: absolute;
+  border-bottom: 5vw solid #7ee8ba;
+  border-left: 6vw solid transparent;
+  border-right: 6vw solid transparent;
+  height: 0vw;
+  width: 5vw;
+  left: 46vw;
+  bottom: 14vw;
+  z-index: 1;
+}  
+
+.vasetoptri {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-left: 6vw solid transparent;
+  border-right: 6vw solid transparent;
+  border-top: 5vw solid #0eb174;
+  left: 48.5vw;
+  bottom: 17vw;
+}
+
+.vasetoprect {
+  position: absolute;
+  width: 12.65%;
+  height: 51%;
+  left: 48.5vw;
+  bottom: 22vw;
+  background-color: #7ee8ba;
+}
+
+.candle2botrect {
+  position: absolute;
+  width: 13%;
+  height: 2%;
+  bottom: 25%;
+  left: 61%;
+  background-color: #0eb174;
+  z-index: 2;
+}
+
+.candle2shaft {
+  position: absolute;
+  width: 1%;
+  height: 17%;
+  bottom: 27%;
+  left: 67%;
+  background-color: #0eb174;
+  z-index: 1;
+}
+
+.candle2toprect {
+  position: absolute;
+  width: 3%;
+  height: 26%;
+  bottom: 44%;
+  left: 66%;
+  background-color: #7ee8ba;
+  z-index: 3;
+}
+
+.candle2wick {
+  position: absolute;
+  width: 1%;
+  height: 5%;
+  bottom: 69%;
+  left: 67%;
+  background-color: #0eb174;
+}
+
